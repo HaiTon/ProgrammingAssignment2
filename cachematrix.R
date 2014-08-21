@@ -3,6 +3,13 @@
 ## Purpose: Calculate an inverse of a matrix. If the inverse of the matrix already
 ##          calculated, then pull the value from cache.
 ## Assumptions: the input matrix is invertible that is matrix's number of row = matrix's number of column
+## References:
+##    Lexical scoping: 
+##       http://cran.r-project.org/doc/manuals/R-intro.html#Scope
+##       http://adv-r.had.co.nz/Functions.html#lexical-scoping
+##    Environment in R: 
+##       http://adv-r.had.co.nz/Environments.html
+
 
 # Take a matrix as parameter then create an object associated with the matrix
 #This function creates a special "matrix" object that can cache its inverse.
